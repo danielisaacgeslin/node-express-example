@@ -1,0 +1,14 @@
+{
+  "name": "node-express-example",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "push": "git add * && git commit -m update && git push"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "~4.13.4",
+    "q": "^1.4.1"
+  }
+}
