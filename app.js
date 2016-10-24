@@ -6,9 +6,7 @@ const routes = require('./config/routes.js');
 const app = express();
 
 app.use(bodyParser.json() );
-app.use(bodyParser.urlencoded({
-  extended: true
-}));
+app.use(bodyParser.urlencoded({extended: true}));
 app.use('/', routes);
 
 app.listen(3000, ()=> {
